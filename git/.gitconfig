@@ -1,0 +1,20 @@
+[core]
+	editor = \"C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin\\code-insiders\" --wait
+[user]
+	name = Jay-Karia
+	email = jay.sanjay.karia@gmail.com
+	signingkey = 3CE5DA4364595420
+[credential]
+	helper = cache
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[alias]
+	co = checkout
+	ci = commit
+	st = status -s
+	a = add .
+	cm = commit -m
+	ph = push
+	pl = pull

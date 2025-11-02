@@ -1,0 +1,31 @@
+
+alias code="code-insiders ."
+
+alias ..="cd .."
+alias ~="cd ~"
+
+alias dl="cd ~/Downloads"
+alias dk="cd ~/Desktop"
+
+alias LS="ls -a --sort=time --width=1 --color=auto"
+alias ll="ls -l --sort=time --color=auto"
+
+alias dotfiles="cd ~/.dotfiles"
+alias projects="cd ~/Projects"
+
+alias cl="clear"
+alias src="source ~/.zshrc"
+
+alias update="sudo apt update && sudo apt upgrade"
+
+alias gt="git"
+alias nv="nvim"
+alias lc="colorls -A --sd"
+
+alias dev="pnpm dev"
+alias build="pnpm build"
+alias buildw="pnpm build:watch"
+alias start="pnpm start"
+alias test="pnpm test"
+alias format="pnpm format"
+alias lint="pnpm lint:src"
